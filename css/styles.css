@@ -106,8 +106,10 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
   }
 
-  button { 
-    cursor:pointer; }
+  .btn { 
+    background-color: #2196F3;
+    cursor:pointer; 
+  }
     
  .list-title{
 font-weight: 700;
