@@ -94,21 +94,18 @@ text-transform: uppercase;
 color: #FFFFFF;
   }
 
-.button-content{
-font-weight: 700;
-font-size: 16px;
-line-height:1.88;
-/* identical to box height, or 188% */
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-
-color: #FFFFFF;
-  }
 
   .btn { 
     background-color: #2196F3;
     cursor:pointer; 
+  }
+  .button-content {
+      font-weight: 700;
+      font-size: 16px;
+      line-height:1.88;
+      letter-spacing: 0.06em;
+       color: #FFFFFF;
+        }
   }
     
  .list-title{
