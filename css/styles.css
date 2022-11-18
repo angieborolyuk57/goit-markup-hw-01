@@ -1,0 +1,164 @@
+body {
+font-family: 'Roboto', sans-serif;
+letter-spacing: 0.03em;
+background-color:#F5F5F5;
+color:#757575;
+}
+
+/*main background color #F5F5F5; */
+/*secondary bkgr color #2F303A; */
+/*3rd bkgr color #F5F4FA; */
+
+/* main text color #757575;  */
+/* main headline color #FFFFFF;  */
+/* small headline color #212121;  */
+/*address color color: rgba(255, 255, 255, 0.6);*/
+/*accent color #2196F3;*/
+/* studio logo color #000000;*/
+
+<!--Page-navigation
+.logo {
+  text-decoration:none;
+}
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  }
+
+.web {
+    color: #2196F3;
+  }
+
+  .logo {
+    text-decoration:none;
+    color: #000000;
+  }
+  
+  .site-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+
+  .item,
+  .accent {
+    text-decoration:none;
+    color:#212121;
+  }
+  
+  .accent:hover,
+  .accent:focus {
+    color: #2196F3; 
+  
+  }
+  
+  <!--auth-nav
+  .auth-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+  
+  .email,
+  .tel-header {
+  text-decoration:none;
+  color:#757575;
+  }
+  
+  .email:hover,
+  .email:focus {
+      color:#2196F3;
+  }
+  
+  .list{
+    list-style:none;
+  }
+  <!--main-content
+  .footer,
+  .hero-section {
+    background: #2F303A;
+  }
+
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height:1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+  }
+.button-content{
+font-weight: 700;
+font-size: 16px;
+line-height:1.88;
+/* identical to box height, or 188% */
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+  }
+ .list-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+
+color: #212121;
+
+ }
+.text{
+font-size: 14px;
+line-height: 1.71px;
+}
+.activities,
+.team {
+font-weight: 700;
+font-size: 36px;
+line-height:1.16;
+text-align: center;
+
+color: #212121;
+}
+.team-member {
+font-weight: 500;
+font-size: 16px;
+line-height:1.18;
+text-align: center;
+
+color: #212121;
+}
+.position {
+  font-size: 16px;
+line-height: 1.18;
+text-align: center;
+}
+
+<!--logo-footer
+.footer {
+background-color: #2F303A;
+} 
+.footer {
+  background-color: #2F303A;
+  } 
+
+.studio-footer {
+  color: #FFFFFF;
+}
+.contacts {
+font-size: 14px;
+line-height:1.71;
+}
+.address {
+color: #FFFFFF;
+}
+.email-footer,
+.tel-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
