@@ -136,13 +136,46 @@ color:#757575;
   .email:focus {
   color: var(--accent-color);
   }
-  
 
-  
-  <!--main-content
+ .icon-envelope, .icon-smartphone{
+  margin-right:10px;
+
+ }
+
+ .icon-envelope{
+  fill:#757575;
+ }
+
+ .icon-envelope:hover{
+  fill:var(--accent-color);
+ }
+ .envelope {
+  display:inline-block;
+  width: 10px;
+  height:12px;
+}
+
+  /*Main content */
+
+  /*Hero section */
   .footer,
   .hero-section {
     background: var(--second-background);
+  }
+
+  .overlay{
+max-width:1600px;
+margin-left:auto;
+margin-right:auto;
+    background-image: linear-gradient(
+      to right,
+        rgba(47, 48, 58, 0.4),
+         rgba(47, 48, 58, 0.4)),
+         
+       url(../images/backgroung.png);
+
+  background-repeat:no-repeat;
+  background-size: cover;
   }
 
   .hero-section{
@@ -160,7 +193,6 @@ color:#757575;
   margin-left:auto;
   margin-right:auto;
   width:696px;
- 
 
 font-weight: 900;
 font-size: 44px;
@@ -169,9 +201,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 
 color: var(--primary-white);
-  }
-
-
+}
 
   .btn {
     display:inline-block;
@@ -215,7 +245,6 @@ color: var(--primary-white);
       margin-right:30px;
   }
 
-
  .list-title {
 font-size: 14px;
 line-height: 1.14;
@@ -228,13 +257,32 @@ text-transform: uppercase;
   color: var(--headline-color);
   }
   
-
- 
 .text {
   margin-top: 0px;
   margin-bottom:0px;
 font-size: 14px;
 line-height: 1.71;
+}
+
+
+/* Feature list icons*/
+
+.icon-container{
+  background-color:#F5F4FA;
+  width:270px;
+  height: 120px;
+
+  margin-bottom:30px;
+  text-align: center;
+}
+
+.feature-icon{
+  display: block;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding-top:25px;
+    padding-bottom:25px;
 }
 
 /*what we do*/
@@ -244,7 +292,8 @@ line-height: 1.71;
 }
 
 .activities,
-.team {
+.team, 
+.loyal-clients{
 font-size: 36px;
 line-height:1.16;
 text-align: center;
@@ -328,6 +377,95 @@ text-align: center;
 .position:last-child{
   margin-bottom:0px;
 }
+
+/*Social links icons*/
+
+.socials-list{
+  display:flex;
+  align-items: center;
+  gap:10px;
+
+  margin-left:32px;
+  margin-right:32px;
+}
+
+.socials-icon{
+  display:inline-block;
+  object-fit: cover;
+}
+
+.socials-item{
+  width: 44px;
+  height: 44px;
+  border-radius: 1px transparent;
+
+}
+
+.social-link{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  fill:#AFB1B8;
+
+  width: 44px;
+  height: 44px;
+}
+
+.instagram:hover{
+  width: 44px;
+  height: 44px;
+  fill:var(--primary-white);
+  background-color: var(--accent-color);  
+  border-radius: 50%;
+}
+
+.instagram:hover{
+  fill:var(--primary-white);
+ }
+
+ /*Our clients section */
+ .loyal-clients{
+  margin-top:0px;
+  margin-bottom:50px;
+  padding-top:94px;
+
+ }
+
+/*Our clients icons */
+.clients-list{
+  display:flex;
+  align-items: center;
+  gap:30px;
+  padding-bottom:94px;
+}
+
+.clients-item{
+
+
+}
+
+.clients-link{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  fill:#AFB1B8;
+
+  width: 170px;
+  height: 92px;
+ border: 1px solid #AFB1B8;
+border-radius:4px;
+}
+
+.clients-icon{
+  display:inline-block;
+  object-fit: cover;
+}
+
+.company-four:hover{
+  fill:var(--accent-color);
+}
+
+
 <!--logo-footer
 .footer {
   padding-top:60px;
@@ -385,4 +523,65 @@ color:var(--primary-white);
 .tel-footer {
   color: rgba(255, 255, 255, 0.6);
   text-decoration:none;
+}
+
+/*Socials footer sections  */
+
+.footer-container{
+  display:flex; 
+}
+
+.socials-footer{
+  width: 206px;
+  height: 80px;
+  margin-left:70px;
+  margin-top:12px;
+  margin-bottom:72px;
+}
+
+.headline-footer{
+  display:inline-block;
+  Font size: 14px;
+  Line height: 1.14;
+  Line height: 100%;
+  text-align:center;
+  color:#FFFFFF;
+
+  margin:0px;
+  margin-bottom:10px;
+  padding:0px;
+}
+
+
+.socials-list-footer{
+  display:flex;
+  align-items: left;
+  gap:10px;
+  padding-left:0px;
+}
+
+.socials-icon-footer{
+  display:inline-block;
+  fill:#FFFFFF;
+  object-fit: cover;
+}
+
+.social-link-footer{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  background-color: #FFFFFF1A;
+  border-radius:50%;
+  ;
+}
+
+.twitter:hover{
+  width: 44px;
+  height: 44px;
+  fill:var(--primary-white);
+  background-color: var(--accent-color);  
+  border-radius: 50%;
 }
